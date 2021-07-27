@@ -11,6 +11,10 @@
 		99386C2226B022CB007AF705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99386C2126B022CB007AF705 /* ContentView.swift */; };
 		99386C2426B022CD007AF705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99386C2326B022CD007AF705 /* Assets.xcassets */; };
 		99386C2726B022CD007AF705 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99386C2626B022CD007AF705 /* Preview Assets.xcassets */; };
+		99386C2F26B02413007AF705 /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99386C2E26B02413007AF705 /* Lights.swift */; };
+		99386C3126B02E94007AF705 /* TrafficLightsPole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99386C3026B02E94007AF705 /* TrafficLightsPole.swift */; };
+		99386C3326B0505B007AF705 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99386C3226B0505B007AF705 /* Background.swift */; };
+		99386C3526B0538E007AF705 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99386C3426B0538E007AF705 /* TrafficLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		99386C2326B022CD007AF705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99386C2626B022CD007AF705 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99386C2826B022CD007AF705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99386C2E26B02413007AF705 /* Lights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lights.swift; sourceTree = "<group>"; };
+		99386C3026B02E94007AF705 /* TrafficLightsPole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsPole.swift; sourceTree = "<group>"; };
+		99386C3226B0505B007AF705 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		99386C3426B0538E007AF705 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				99386C1F26B022CB007AF705 /* SwiftUITrafficLightApp.swift */,
 				99386C2126B022CB007AF705 /* ContentView.swift */,
+				99386C3426B0538E007AF705 /* TrafficLight.swift */,
+				99386C3026B02E94007AF705 /* TrafficLightsPole.swift */,
+				99386C2E26B02413007AF705 /* Lights.swift */,
+				99386C3226B0505B007AF705 /* Background.swift */,
 				99386C2326B022CD007AF705 /* Assets.xcassets */,
 				99386C2826B022CD007AF705 /* Info.plist */,
 				99386C2526B022CD007AF705 /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99386C3126B02E94007AF705 /* TrafficLightsPole.swift in Sources */,
 				99386C2226B022CB007AF705 /* ContentView.swift in Sources */,
+				99386C3526B0538E007AF705 /* TrafficLight.swift in Sources */,
 				99386C2026B022CB007AF705 /* SwiftUITrafficLightApp.swift in Sources */,
+				99386C2F26B02413007AF705 /* Lights.swift in Sources */,
+				99386C3326B0505B007AF705 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
